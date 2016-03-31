@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/arp_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/time_in_state" android:fragment="com.pacman.performance.fragments.TimeInStateFragment" />
+    <PreferenceScreen android:title="@string/init_d_title" android:fragment="com.android.settings.pac.InitD" />
+    <PreferenceScreen android:id="@id/omni_switch" android:title="@string/omni_switch">
+        <intent android:targetPackage="org.omnirom.omniswitch" android:action="android.intent.action.MAIN" android:targetClass="org.omnirom.omniswitch.SettingsActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:id="@id/device_control" android:title="@string/device_control">
+        <intent android:targetPackage="org.namelessrom.devicecontrol" android:action="android.intent.action.MAIN" android:targetClass="org.namelessrom.devicecontrol.MainActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

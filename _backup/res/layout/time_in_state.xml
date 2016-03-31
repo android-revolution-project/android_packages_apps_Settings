@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/ui_header_total_state_time" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/total_state_time" style="?android:attr/listSeparatorTextViewStyle" />
+        <TextView android:textSize="20.0sp" android:gravity="center_horizontal" android:id="@id/ui_total_state_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/time_in_state" style="?android:attr/listSeparatorTextViewStyle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ui_states_view" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/ui_header_additional_states" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/unused_cpu_states" style="?android:attr/listSeparatorTextViewStyle" />
+        <TextView android:id="@id/ui_additional_states" android:padding="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

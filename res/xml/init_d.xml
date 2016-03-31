@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pt_general">
+        <CheckBoxPreference android:title="@string/pt_sysctl" android:key="sysctl" android:summary="@string/ps_sysctl" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_setrenice" android:key="setrenice" android:summary="@string/ps_setrenice" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_filesystem" android:key="filesystem" android:summary="@string/ps_filesystem" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_freemem" android:key="freemem" android:summary="@string/ps_freemem" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_cache" android:key="cache" android:summary="@string/ps_cache" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_permissions" android:key="permissions" android:summary="@string/ps_permissions" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_kernel" android:key="kernel" android:summary="@string/ps_kernel" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_cron" android:key="cron" android:summary="@string/ps_cron" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_sdboost" android:key="sdboost" android:summary="@string/ps_sdboost" android:defaultValue="true" />
+        <EditTextPreference android:title="@string/pt_ahead" android:key="ahead" android:defaultValue="2048" android:dialogTitle="@string/pt_ahead" />
+        <CheckBoxPreference android:title="@string/pt_battery" android:key="battery" android:summary="@string/ps_battery" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_touch" android:key="touch" android:summary="@string/ps_touch" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_vm" android:key="vm" android:summary="@string/ps_vm" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_net" android:key="net" android:summary="@string/ps_net" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_sleepers" android:key="sleepers" android:summary="@string/ps_sleepers" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_journalism" android:key="journalism" android:summary="@string/ps_journalism" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_sqlite" android:key="sqlite" android:summary="@string/ps_sqlite" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_wifisleep" android:key="wifisleep" android:summary="@string/ps_wifisleep" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pt_iostats" android:key="iostats" android:summary="@string/ps_iostats" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

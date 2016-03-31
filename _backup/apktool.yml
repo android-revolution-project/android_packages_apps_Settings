@@ -1,0 +1,19 @@
+version: 2.1.0_0106
+apkFileName: Settings.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '21'
+  versionName: 5.0.2-9d4784c208
+sharedLibrary: false
+unknownFiles:
+  !!binary "bWFuaWZlc3Q=": '8'
+doNotCompress:
+- arsc
