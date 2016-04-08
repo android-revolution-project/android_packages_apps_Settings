@@ -11,18 +11,18 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_SRC_FILES := \
+#LOCAL_SRC_FILES := \
         $(call all-java-files-under, src) \
         src/com/android/settings/EventLogTags.logtags
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/cardview/res
 
-LOCAL_SRC_FILES += \
+#LOCAL_SRC_FILES += \
         src/com/android/location/XT/IXTSrv.aidl \
         src/com/android/location/XT/IXTSrvCb.aidl
 
-LOCAL_SRC_FILES += \
+#LOCAL_SRC_FILES += \
         src/com/android/display/IPPService.aidl
 
 LOCAL_PACKAGE_NAME := Settings
